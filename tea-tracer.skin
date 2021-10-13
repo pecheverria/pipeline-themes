@@ -12,13 +12,6 @@ skinparam ActivityFontSize 10
 skinparam ActivityFontStyle bold
 skinparam ActivityBorderColor #33322f
 skinparam ActivityBorderThickness 2
-skinparam PartitionBackgroundColor #eee8d5
-skinparam PartitionFontName Tahoma
-skinparam PartitionFontColor #33322E
-skinparam PartitionFontSize 10
-skinparam PartitionFontStyle bold
-skinparam PartitionBorderColor #eee8d5
-skinparam PartitionBorderThickness 1
 skinparam ArrowColor #33322f
 skinparam ArrowFontColor #33322f
 skinparam ArrowFontSize 10
@@ -37,3 +30,10 @@ skinparam NoteTextAlignment left
 !$traceTagColor = "#33322E"
 !$errorColor = "#33322E"
 !$errorSize = "16"
+skinparam PartitionBackgroundColor #fdf6e3
+skinparam PartitionFontName Tahoma
+skinparam PartitionFontColor #33322E
+skinparam PartitionFontSize 16
+skinparam PartitionFontStyle bold
+skinparam PartitionBorderColor #fdf6e3
+skinparam PartitionBorderThickness 0
