@@ -34,3 +34,10 @@ skinparam NoteFontSize 9
 skinparam NoteFontStyle normal
 skinparam NoteShadowing false
 skinparam NoteTextAlignment left
+skinparam PartitionBackgroundColor #fdf6e3
+skinparam PartitionFontName Tahoma
+skinparam PartitionFontColor #33322E
+skinparam PartitionFontSize 10
+skinparam PartitionFontStyle bold
+skinparam PartitionBorderColor #eee8d5
+skinparam PartitionBorderThickness 1
