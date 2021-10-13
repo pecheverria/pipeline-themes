@@ -40,4 +40,4 @@ skinparam PartitionFontColor #33322E
 skinparam PartitionFontSize 16
 skinparam PartitionFontStyle bold
 skinparam PartitionBorderColor #fdf6e3
-skinparam PartitionBorderThickness 1
+skinparam PartitionBorderThickness 0
