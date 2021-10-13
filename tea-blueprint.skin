@@ -39,5 +39,5 @@ skinparam PartitionFontName Tahoma
 skinparam PartitionFontColor #33322E
 skinparam PartitionFontSize 16
 skinparam PartitionFontStyle bold
-skinparam PartitionBorderColor #fdf6e3
-skinparam PartitionBorderThickness 0
+skinparam PartitionBorderColor #eee8d5
+skinparam PartitionBorderThickness 1
