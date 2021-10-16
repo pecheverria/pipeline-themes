@@ -37,3 +37,9 @@ skinparam PartitionFontSize 16
 skinparam PartitionFontStyle bold
 skinparam PartitionBorderColor #eee8d5
 skinparam PartitionBorderThickness 2
+skinparam ActivityDiamondBackgroundColor #33322E
+skinparam ActivityDiamondFontName Tahoma
+skinparam ActivityDiamondFontColor #fdf6e3
+skinparam ActivityDiamondFontSize 13
+skinparam ActivityDiamondFontStyle bold italic
+skinparam ActivityDiamondBorderColor #33322f
