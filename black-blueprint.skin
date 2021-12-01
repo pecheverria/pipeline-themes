@@ -41,3 +41,6 @@ skinparam PartitionFontSize 16
 skinparam PartitionFontStyle bold
 skinparam PartitionBorderColor #ffffff
 skinparam PartitionBorderThickness 2
+!$checkpointBackgroundColor = "#343a3f" 
+!$checkpointFontColor = "#ffffff"
+
