@@ -18,7 +18,7 @@ skinparam ArrowFontSize 12
 skinparam ArrowFontStyle italic
 skinparam ArrowMessageAlignment center
 skinparam ActivityBarColor #ffffff
-skinparam NoteBackgroundColor #fdf6e3
+skinparam NoteBackgroundColor #343a3f
 skinparam NoteBorderColor #343a3f
 skinparam NoteBorderThickness 1
 skinparam NoteFontColor #ffffff
