@@ -40,7 +40,7 @@ skinparam PartitionFontColor #343A40
 skinparam PartitionFontSize 16
 skinparam PartitionFontStyle italic bold
 skinparam PartitionBorderColor #ABB3BA
-skinparam PartitionBorderThickness 0
+skinparam PartitionBorderThickness 1
 !$checkpointBackgroundColor = "#343a3f" 
 !$checkpointFontColor = "#ffffff"
 
