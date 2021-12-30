@@ -34,7 +34,7 @@ skinparam NoteFontSize 12
 skinparam NoteFontStyle normal
 skinparam NoteShadowing false
 skinparam NoteTextAlignment left
-skinparam PartitionBackgroundColor #D5D9DD
+skinparam PartitionBackgroundColor #F1F2F4
 skinparam PartitionFontName system-ui
 skinparam PartitionFontColor #343A40
 skinparam PartitionFontSize 16
