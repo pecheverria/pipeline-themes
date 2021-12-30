@@ -3,7 +3,7 @@ skinparam shadowing false
 skinparam defaultFontColor #343a3f
 skinparam defaultFontSize 14
 skinparam defaultFontStyle normal
-skinparam HyperlinkColor #76736a
+skinparam HyperlinkColor #343a3f
 skinparam ActivityBackgroundColor #ffffff
 skinparam ActivityFontName system-ui
 skinparam ActivityFontColor #343a3f
