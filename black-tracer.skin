@@ -28,7 +28,7 @@ skinparam NoteFontStyle bold
 skinparam NoteShadowing false
 skinparam NoteTextAlignment left
 !$traceTagColor = "#33322E"
-!$errorColor = "#33322E"
+!$errorColor = "#EA3546"
 !$errorSize = "16"
 skinparam PartitionBackgroundColor #343a3f
 skinparam PartitionFontName system-ui
