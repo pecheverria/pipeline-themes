@@ -26,14 +26,6 @@ skinparam ActivityDiamondFontColor #ffffff
 skinparam ActivityDiamondFontSize 15
 skinparam ActivityDiamondFontStyle bold italic
 skinparam ActivityDiamondBorderColor #343a3f
-skinparam NoteBackgroundColor #ffffff
-skinparam NoteBorderColor #ffffff
-skinparam NoteFontColor #343a3f
-skinparam NoteFontName system-ui
-skinparam NoteFontSize 12
-skinparam NoteFontStyle normal
-skinparam NoteShadowing false
-skinparam NoteTextAlignment left
 skinparam PartitionBackgroundColor #ffffff
 skinparam PartitionFontName system-ui
 skinparam PartitionFontColor #343A40
@@ -43,4 +35,19 @@ skinparam PartitionBorderColor #F1F2F4
 skinparam PartitionBorderThickness 1
 !$checkpointBackgroundColor = "#343a3f" 
 !$checkpointFontColor = "#ffffff"
+
+<style>
+note {
+  BackgroundColor #ffffff
+  BorderThickness 1
+  FontColor #343a3f
+  FontName system-ui
+  FontSize 12
+  FontStyle normal
+  TextAlignment left
+  LineColor #ffffff
+}
+</style>
+
+
 
