@@ -18,15 +18,6 @@ skinparam ArrowFontSize 12
 skinparam ArrowFontStyle italic
 skinparam ArrowMessageAlignment center
 skinparam ActivityBarColor #ffffff
-skinparam NoteBackgroundColor #343a3f
-skinparam NoteBorderColor #343a3f
-skinparam NoteBorderThickness 1
-skinparam NoteFontColor #ffffff
-skinparam NoteFontName system-ui
-skinparam NoteFontSize 12
-skinparam NoteFontStyle bold
-skinparam NoteShadowing false
-skinparam NoteTextAlignment left
 !$traceTagColor = "#33322E"
 !$errorColor = "#EA3546"
 !$errorSize = "16"
@@ -45,3 +36,16 @@ skinparam ActivityDiamondFontStyle bold italic
 skinparam ActivityDiamondBorderColor #ffffff
 !$checkpointBackgroundColor = "#ffffff" 
 !$checkpointFontColor = "#343a3f"
+
+<style>
+note {
+  BackgroundColor  #343a3f
+  BorderThickness 1
+  FontColor #ffffff
+  FontName system-ui
+  FontSize 12
+  FontStyle bold
+  LineColor #343a3f
+}
+</style>
+
