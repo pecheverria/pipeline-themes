@@ -26,14 +26,6 @@ skinparam ActivityDiamondFontColor #fdf6e3
 skinparam ActivityDiamondFontSize 13
 skinparam ActivityDiamondFontStyle bold italic
 skinparam ActivityDiamondBorderColor #33322f
-skinparam NoteBackgroundColor #fdf6e3
-skinparam NoteBorderColor #fdf6e3
-skinparam NoteFontColor #657b83
-skinparam NoteFontName Arial
-skinparam NoteFontSize 9
-skinparam NoteFontStyle normal
-skinparam NoteShadowing false
-skinparam NoteTextAlignment left
 skinparam PartitionBackgroundColor #fdf6e3
 skinparam PartitionFontName Tahoma
 skinparam PartitionFontColor #33322E
@@ -41,3 +33,17 @@ skinparam PartitionFontSize 16
 skinparam PartitionFontStyle bold
 skinparam PartitionBorderColor #eee8d5
 skinparam PartitionBorderThickness 2
+
+<style>
+note {
+  BackgroundColor #fdf6e3
+  BorderThickness 1
+  FontColor #657b83
+  FontName Arial
+  FontSize 9
+  FontStyle normal
+  TextAlignment left
+  LineColor #fdf6e3
+}
+</style>
+
