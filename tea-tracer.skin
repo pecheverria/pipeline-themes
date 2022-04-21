@@ -18,15 +18,6 @@ skinparam ArrowFontSize 10
 skinparam ArrowFontStyle italic
 skinparam ArrowMessageAlignment center
 skinparam ActivityBarColor #33322f
-skinparam NoteBackgroundColor #fdf6e3
-skinparam NoteBorderColor #fdf6e3
-skinparam NoteBorderThickness 1
-skinparam NoteFontColor #33322E
-skinparam NoteFontName Arial
-skinparam NoteFontSize 12
-skinparam NoteFontStyle bold
-skinparam NoteShadowing true
-skinparam NoteTextAlignment left
 !$traceTagColor = "#33322E"
 !$errorColor = "#33322E"
 !$errorSize = "16"
@@ -43,3 +34,17 @@ skinparam ActivityDiamondFontColor #fdf6e3
 skinparam ActivityDiamondFontSize 13
 skinparam ActivityDiamondFontStyle bold italic
 skinparam ActivityDiamondBorderColor #33322f
+
+<style>
+note {
+  BackgroundColor #fdf6e3
+  BorderThickness 1
+  FontColor #33322E
+  FontName Arial
+  FontSize 12
+  FontStyle bold
+  TextAlignment left
+  LineColor #fdf6e3
+}
+</style>
+
