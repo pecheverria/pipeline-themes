@@ -48,14 +48,14 @@ skinparam rectangle {
 
 <style>
 note {
-  BackgroundColor #ffffff
+  BackgroundColor transparent
   BorderThickness 1
   FontColor #343a3f
   FontName system-ui
   FontSize 12
   FontStyle normal
   TextAlignment left
-  LineColor #ffffff
+  LineColor transparent
 }
 </style>
 
