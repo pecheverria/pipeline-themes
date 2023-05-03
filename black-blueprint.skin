@@ -36,6 +36,16 @@ skinparam PartitionBorderThickness 1
 !$checkpointBackgroundColor = "#343a3f" 
 !$checkpointFontColor = "#ffffff"
 
+skinparam rectangle {
+    roundCorner 100
+    
+    backgroundColor<<inlaid>> #e5e5e5
+    borderColor<<inlaid>> #e5e5e5
+
+    backgroundColor<<remote>> #22c18f
+    borderColor<<remote>> 22c18f
+}
+
 <style>
 note {
   BackgroundColor #ffffff
