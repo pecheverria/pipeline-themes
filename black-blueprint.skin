@@ -43,7 +43,7 @@ skinparam rectangle {
     borderColor<<inlaid>> #e5e5e5
 
     backgroundColor<<remote>> #22c18f
-    borderColor<<remote>> 22c18f
+    borderColor<<remote>> #22c18f
 }
 
 <style>
