@@ -37,6 +37,16 @@ skinparam ActivityDiamondBorderColor #ffffff
 !$checkpointBackgroundColor = "#ffffff" 
 !$checkpointFontColor = "#343a3f"
 
+skinparam rectangle {
+    roundCorner 100
+    
+    backgroundColor<<inlaid>> #343a3f
+    borderColor<<inlaid>> #e5e5e5
+
+    backgroundColor<<remote>> #343a3f
+    borderColor<<remote>> #22c18f
+}
+
 <style>
 note {
   BackgroundColor  #343a3f
