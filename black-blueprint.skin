@@ -40,7 +40,7 @@ skinparam rectangle {
     roundCorner 100
     
     backgroundColor<<inlaid>> #e5e5e5
-    borderColor<<inlaid>> #e5e5e5
+    borderColor<<inlaid>> #ffffff
 
     backgroundColor<<remote>> #22c18f
     borderColor<<remote>> #22c18f
