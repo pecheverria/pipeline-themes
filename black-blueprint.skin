@@ -39,7 +39,7 @@ skinparam PartitionBorderThickness 1
 skinparam rectangle {
     roundCorner 100
     
-    backgroundColor<<inlaid>> #f9fafa
+    backgroundColor<<inlaid>> #d5d9dd
     borderColor<<inlaid>> #ffffff
 
     backgroundColor<<remote>> #22c18f
