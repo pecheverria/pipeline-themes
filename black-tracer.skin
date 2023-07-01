@@ -1,39 +1,35 @@
-skinparam backgroundColor #343a3f
+skinparam backgroundColor #15151e
 skinparam shadowing false
 skinparam defaultFontColor #ffffff
 skinparam defaultFontSize 14
 skinparam defaultFontStyle normal
 skinparam HyperlinkColor #76736a
-skinparam ActivityBackgroundColor #343a3f
+
+skinparam ActivityBackgroundColor #1f1f27
 skinparam ActivityFontName system-ui
 skinparam ActivityFontColor #ffffff
-!$packageColor = "#96a4a3"
 skinparam ActivityFontSize 15
 skinparam ActivityFontStyle bold
-skinparam ActivityBorderColor #ffffff
+skinparam ActivityBorderColor #4b545b
 skinparam ActivityBorderThickness 2
+
 skinparam ArrowColor #ffffff
 skinparam ArrowFontColor #ffffff
 skinparam ArrowFontSize 12
 skinparam ArrowFontStyle italic
 skinparam ArrowMessageAlignment center
 skinparam ActivityBarColor #ffffff
-!$traceTagColor = "#33322E"
 !$errorColor = "#EA3546"
 !$errorSize = "16"
-skinparam PartitionBackgroundColor #343a3f
-skinparam PartitionFontName system-ui
-skinparam PartitionFontColor #33322E
-skinparam PartitionFontSize 16
-skinparam PartitionFontStyle bold
-skinparam PartitionBorderColor #eee8d5
-skinparam PartitionBorderThickness 2
-skinparam ActivityDiamondBackgroundColor #ffffff
+skinparam ActivityDiamondBackgroundColor #ffff
 skinparam ActivityDiamondFontName system-ui
-skinparam ActivityDiamondFontColor #343a3f
+skinparam ActivityDiamondFontColor #000000
 skinparam ActivityDiamondFontSize 15
 skinparam ActivityDiamondFontStyle bold italic
 skinparam ActivityDiamondBorderColor #ffffff
+
+
+!$highlightFontColor = "#22c18f" 
 !$checkpointBackgroundColor = "#ffffff" 
 !$checkpointFontColor = "#343a3f"
 
@@ -49,13 +45,12 @@ skinparam rectangle {
 
 <style>
 note {
-  BackgroundColor  #343a3f
+  BackgroundColor  transparent
   BorderThickness 1
   FontColor #ffffff
   FontName system-ui
   FontSize 12
   FontStyle bold
-  LineColor #343a3f
+  LineColor transparent
 }
 </style>
-
