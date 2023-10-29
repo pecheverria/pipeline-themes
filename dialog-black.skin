@@ -40,6 +40,7 @@ skinparam Activity {
   fontColor<<io>> $c0
 
   backgroundColor<<io-highlight>> $c2
+  fontSize<<inlaider>> 21  
   fontColor<<io-highlight>> $c3
 
   backgroundColor<<io-highlight-err>> $c2
