@@ -44,6 +44,10 @@ skinparam Activity {
 
   backgroundColor<<io-highlight-err>> $c2
   fontColor<<io-highlight-err>> $c4
+
+  backgroundColor<<inlayder>> $c3
+  fontSize<<inlayder>> 24
+  fontColor<<inlayder>> $c2
   
   borderColor<<info>> trasparent
   fontSize<<info>> 42
