@@ -30,6 +30,9 @@ skinparam Activity {
   diamondFontStyle bold italic
   diamondBorderColor $c2
 
+  fontSize<<grouper>> 24
+  FontColor<<grouper>> $c2
+
   backgroundColor<<highlight>> $c3
   fontColor<<highlight>> $c2
   
