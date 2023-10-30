@@ -91,5 +91,11 @@ note {
   fontStyle normal
   textAlignment left
   lineColor transparent
+
+  fontSize<<map>> 24
+  fontColor<<map>> $c3
+
+  fontSize<<fire>> 24
+  fontColor<<fire>> $c4
 }
 </style>
