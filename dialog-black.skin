@@ -5,16 +5,23 @@
 !$c4 = "#ea3546"  /' highlight-error  '/
 !$c5 = "#4f86c6"  /' info             '/
 
+!$fs0 = 14        /' default          '/
+!$fs1 = 15        /' activity         '/
+!$fs2 = 21        /' highlight        '/
+!$fs3 = 24        /' groups           '/
+!$fs4 = 42        /' info activity    '/
+!$fs5 = 12        /' info details     '/
+
 skinparam backgroundColor $c0
 skinparam shadowing false
 skinparam defaultFontColor $c2
-skinparam defaultFontSize 14
+skinparam defaultFontSize $fs0
 skinparam defaultFontStyle normal
 skinparam HyperlinkColor $c2
 
 skinparam Activity {
   fontName system-ui
-  fontSize 15
+  fontSize $fs1
   backgroundColor $c0
   fontColor $c2
   fontStyle bold
@@ -26,11 +33,11 @@ skinparam Activity {
   diamondBackgroundColor $c2
   diamondFontName system-ui
   diamondFontColor $c0
-  diamondFontSize 15
+  diamondFontSize $fs1
   diamondFontStyle bold italic
   diamondBorderColor $c2
 
-  fontSize<<grouper>> 24
+  fontSize<<grouper>> $fs3
   FontColor<<grouper>> $c2
 
   backgroundColor<<highlight>> $c3
@@ -43,30 +50,30 @@ skinparam Activity {
   fontColor<<io>> $c0
 
   backgroundColor<<io-highlight>> $c2
-  fontSize<<io-highlight>> 21  
+  fontSize<<io-highlight>> $fs2  
   fontColor<<io-highlight>> $c3
 
   backgroundColor<<io-highlight-err>> $c2
-  fontSize<<io-highlight-err>> 21
+  fontSize<<io-highlight-err>> $fs2
   fontColor<<io-highlight-err>> $c4
 
   backgroundColor<<inlaider>> $c3
-  fontSize<<inlaider>> 24
+  fontSize<<inlaider>> $fs3
   fontColor<<inlaider>> $c2
   
   borderColor<<info>> trasparent
-  fontSize<<info>> 42
+  fontSize<<info>> $fs4
   fontColor<<info>> $c5
   
   borderColor<<info-err>> $c4
-  fontSize<<info-err>> 42
+  fontSize<<info-err>> $fs4
   fontColor<<info-err>> $c5
 }
 
 skinparam Arrow {
   color $c2
   fontColor $c2
-  fontSize 12
+  fontSize $fs5
   fontStyle italic
   messageAlignment center
 }
@@ -87,15 +94,9 @@ note {
   borderThickness 1
   fontColor $c2
   fontName system-ui
-  fontSize 12
+  fontSize $fs5
   fontStyle normal
   textAlignment left
   lineColor transparent
-
-  fontSize<<map>> 24
-  fontColor<<map>> $c3
-
-  fontSize<<fire>> 24
-  fontColor<<fire>> $c4
 }
 </style>
