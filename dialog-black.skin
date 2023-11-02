@@ -68,6 +68,23 @@ skinparam Activity {
   borderColor<<info-err>> $c4
   fontSize<<info-err>> $fs4
   fontColor<<info-err>> $c5
+
+  backgroundColor<<tracer>> transparent
+  fontColor<<tracer>> $c2
+  borderColor<<tracer>> $c3
+
+  backgroundColor<<io-tracer>> $c3
+  fontSize<<io-tracer>> $fs3
+  fontColor<<io-tracer>> $c2
+  borderColor<<io-tracer>> $c3
+ 
+  borderColor<<shadow>> transparent
+  backgroundColor<<shadow>> transparent
+  diamondBackgroundColor<<shadow>> $c1
+
+  backgroundColor<<skipped>> transparent
+  borderColor<<skipped>> $c2 
+  fontColor<<skipped>> $c1
 }
 
 skinparam Arrow {
