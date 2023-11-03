@@ -103,6 +103,9 @@ skinparam rectangle {
 
     backgroundColor<<remote>> $c3
     borderColor<<remote>> $c3
+
+    backgroundColor<<tracer-remote>> transparent
+    borderColor<<tracer-remote>> $c2
 }
 
 <style>
