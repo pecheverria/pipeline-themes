@@ -66,7 +66,7 @@ skinparam Activity {
   fontColor<<info>> $c5
 
   borderColor<<info-tracer>> transparent
-  fontSize<<info-tracer>> $fs0
+  fontSize<<info-tracer>> $fs4
   fontColor<<info-tracer>> $c3
 
   borderColor<<info-err>> $c4
