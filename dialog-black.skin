@@ -18,6 +18,7 @@ skinparam defaultFontColor $c2
 skinparam defaultFontSize $fs0
 skinparam defaultFontStyle normal
 skinparam HyperlinkColor $c2
+skinparam titleFontSize $fs4
 
 skinparam Activity {
   fontName system-ui
