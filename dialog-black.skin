@@ -27,7 +27,7 @@ skinparam Activity {
   fontColor $c2
   fontStyle bold
   borderColor $c2
-  borderThickness 3
+  borderThickness 2
 
   barColor $c2
 
