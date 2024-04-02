@@ -66,6 +66,10 @@ skinparam rectangle {
 }
 
 <style>
+element {
+  hyperlinkUnderlineThickness 0
+}
+
 note {
   backgroundColor transparent
   borderThickness 1
