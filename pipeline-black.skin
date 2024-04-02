@@ -1,0 +1,79 @@
+!$c0 = "#ffffff"  /' background       '/
+!$c1 = "#d5d9dd"  /' light-background '/
+!$c2 = "#343a3f"  /' foreground       '/
+!$c3 = "#22c18f"  /' hightlight       '/
+!$c4 = "#ea3546"  /' highlight-error  '/
+!$c5 = "#4f86c6"  /' info             '/
+
+!$fs0 = 14        /' default          '/
+!$fs1 = 15        /' activity         '/
+!$fs2 = 21        /' highlight        '/
+!$fs3 = 24        /' groups           '/
+!$fs4 = 42        /' info activity    '/
+!$fs5 = 12        /' info details     '/
+
+skinparam backgroundColor $c0
+skinparam shadowing false
+skinparam defaultFontColor $c2
+skinparam defaultFontSize $fs0
+skinparam defaultFontStyle normal
+skinparam HyperlinkColor $c2
+skinparam titleFontSize $fs4
+
+skinparam Activity {
+  fontName system-ui
+  fontSize $fs1
+  backgroundColor transparent
+  fontColor $c2
+  fontStyle bold
+  borderColor $c2
+  borderThickness 3
+
+  barColor $c2
+
+  diamondBackgroundColor $c2
+  diamondFontName system-ui
+  diamondFontColor $c0
+  diamondFontSize $fs1
+  diamondFontStyle bold italic
+  diamondBorderColor $c2
+
+  fontSize<<grouper>> $fs3
+  FontColor<<grouper>> $c2
+  
+  borderColor<<info>> transparent
+  fontSize<<info>> $fs4
+  fontColor<<info>> $c5
+}
+
+skinparam Arrow {
+  color $c2
+  fontColor $c2
+  fontSize $fs5
+  fontStyle italic
+  messageAlignment center
+}
+
+skinparam rectangle {
+    roundCorner 100
+    borderThickness 4
+
+    backgroundColor<<whitebox>> $c1
+    borderColor<<whitebox>> $c0
+
+    backgroundColor<<blackbox>> $c3
+    borderColor<<blackbox>> $c3
+}
+
+<style>
+note {
+  backgroundColor transparent
+  borderThickness 1
+  fontColor $c2
+  fontName system-ui
+  fontSize $fs5
+  fontStyle normal
+  textAlignment left
+  lineColor transparent
+}
+</style>
