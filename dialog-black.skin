@@ -125,4 +125,10 @@ note {
   textAlignment left
   lineColor transparent
 }
+
+activity {
+  .io {
+    HyperlinkColor $c3
+  }
+}
 </style>
