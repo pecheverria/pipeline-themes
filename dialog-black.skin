@@ -130,5 +130,9 @@ activity {
   .io {
     HyperlinkColor $c3
   }
+
+  .io-highlight {
+    HyperlinkColor $c3
+  }
 }
 </style>
