@@ -107,7 +107,7 @@ skinparam rectangle {
     roundCorner 100
     borderThickness 4
 
-    backgroundColor<<inlaid>> $c1
+    backgroundColor<<inlaid>> transparent
     borderColor<<inlaid>> $c0
 
     backgroundColor<<remote>> $c3
