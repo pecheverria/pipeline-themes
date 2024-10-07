@@ -31,11 +31,11 @@ skinparam Activity {
   
   barColor $c2
 
-  diamondBackgroundColor $c1
+  diamondBackgroundColor $c0
   diamondFontName system-ui
   diamondFontColor $c2
-  diamondFontSize $fs5
-  diamondFontStyle bold
+  diamondFontSize $fs0
+  diamondFontStyle normal
   diamondBorderColor $c1
   diamondBorderThickness 0
 
@@ -137,7 +137,7 @@ arrow {
 }
 
 diamond {
-  lineThickness 1
+  lineThickness 2
   lineColor $c2
 }
 
