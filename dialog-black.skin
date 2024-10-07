@@ -23,7 +23,7 @@ skinparam titleFontSize $fs4
 skinparam Activity {
   fontName system-ui
   fontSize $fs1
-  backgroundColor transparent
+  backgroundColor $c0
   fontColor $c2
   fontStyle bold
   borderColor transparent
@@ -66,9 +66,11 @@ skinparam Activity {
   fontSize<<inlaider>> $fs3
   fontColor<<inlaider>> $c2
   
+  backgroundColor<<info>> transparent
   borderColor<<info>> transparent
   fontSize<<info>> $fs4
   fontColor<<info>> $c5
+
 
   borderColor<<info-tracer>> transparent
   fontSize<<info-tracer>> $fs4
