@@ -13,7 +13,7 @@
 !$fs5 = 12        /' info details     '/
 
 skinparam backgroundColor $c0
-skinparam shadowing false
+skinparam shadowing true
 skinparam defaultFontColor $c2
 skinparam defaultFontSize $fs0
 skinparam defaultFontStyle normal
@@ -26,17 +26,18 @@ skinparam Activity {
   backgroundColor transparent
   fontColor $c2
   fontStyle bold
-  borderColor $c2
+  borderColor transparent
   borderThickness 3
-
+  
   barColor $c2
 
-  diamondBackgroundColor $c2
+  diamondBackgroundColor $c1
   diamondFontName system-ui
-  diamondFontColor $c0
-  diamondFontSize $fs1
-  diamondFontStyle bold italic
-  diamondBorderColor $c2
+  diamondFontColor $c2
+  diamondFontSize $fs5
+  diamondFontStyle bold
+  diamondBorderColor $c1
+  diamondBorderThickness 0
 
   fontSize<<grouper>> $fs3
   FontColor<<grouper>> $c2
@@ -49,7 +50,9 @@ skinparam Activity {
 
   backgroundColor<<io>> $c2
   fontColor<<io>> $c0
-
+  fontSize<<io>> $fs1
+  borderColor<<io>> $c2
+  
   backgroundColor<<io-highlight>> $c2
   fontSize<<io-highlight>> $fs2  
   fontColor<<io-highlight>> $c3
