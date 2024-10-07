@@ -12,7 +12,7 @@
 !$fs4 = 42        /' info activity    '/
 !$fs5 = 12        /' info details     '/
 
-skinparam backgroundColor $c0
+skinparam backgroundColor transparent
 skinparam shadowing true
 skinparam defaultFontColor $c2
 skinparam defaultFontSize $fs0
@@ -40,7 +40,8 @@ skinparam Activity {
   diamondBorderThickness 0
 
   fontSize<<grouper>> $fs3
-  FontColor<<grouper>> $c2
+  fontColor<<grouper>> $c2
+  backgroundColor<<grouper>> $c2
 
   backgroundColor<<highlight>> $c3
   fontColor<<highlight>> $c2
