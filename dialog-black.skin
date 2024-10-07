@@ -129,6 +129,15 @@ note {
   lineColor transparent
 }
 
+arrow {
+  lineThickness 2.5
+}
+
+diamond {
+  lineThickness 1
+  lineColor $c2
+}
+
 activity {
   .io {
     HyperlinkColor $c3
