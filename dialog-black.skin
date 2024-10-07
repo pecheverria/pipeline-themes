@@ -34,8 +34,8 @@ skinparam Activity {
   diamondBackgroundColor $c0
   diamondFontName system-ui
   diamondFontColor $c2
-  diamondFontSize $fs0
-  diamondFontStyle italic bold
+  diamondFontSize $fs5
+  diamondFontStyle bold
   diamondBorderColor $c1
   diamondBorderThickness 0
 
