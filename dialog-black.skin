@@ -27,7 +27,7 @@ skinparam Activity {
   fontColor $c2
   fontStyle bold
   borderColor transparent
-  borderThickness 3
+  borderThickness 2.5
   
   barColor $c2
 
@@ -107,8 +107,8 @@ skinparam rectangle {
     roundCorner 100
     borderThickness 4
 
-    backgroundColor<<inlaid>> transparent
-    borderColor<<inlaid>> $c0
+    backgroundColor<<inlaid>> $c1
+    borderColor<<inlaid>> $c1
 
     backgroundColor<<remote>> $c3
     borderColor<<remote>> $c3
