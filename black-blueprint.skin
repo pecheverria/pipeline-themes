@@ -44,6 +44,13 @@ skinparam rectangle {
 
     backgroundColor<<remote>> #22c18f
     borderColor<<remote>> #22c18f
+
+    backgroundColor<<catch>> transparent
+    borderColor<<catch>> $c1
+    borderStyle<<catch>> 5
+    roundCorner<<catch>> 21
+    borderThickness<<catch>> 2
+    fontColor<<catch>> $c1
 }
 
 <style>
